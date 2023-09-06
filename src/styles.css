@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+.head {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 25px;
+}
+.search-box {
+  text-align: center;
+}
+.search-box input {
+  padding: 12px 6px;
+  width: 25%;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: rgb(131, 29, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 29, 234, 1) 27%,
+    rgba(75, 3, 254, 1) 82%
+  );
+  border-radius: 4px;
+}
+input::placeholder {
+  color: white;
+}
+td {
+  width: 200px;
+  border-bottom: 2px solid white;
+  padding-bottom: 8px;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 60px;
+  width:1024px;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+table img {
+  width: 57px;
+}
+.coin-page
+{
+   height:100vh;
+   background-color:black;
+   color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.coin-page-box
+{
+  max-width:1000px;
+  text-align: center;
+  border: 5px solid white;
+  padding:30px 90px;
+  border-radius: 20px;
+}
+
+.coin-page-box p
+{
+   font-size: medium;
+}
